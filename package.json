@@ -2,9 +2,12 @@
   "name": "module-2-workflow",
   "version": "1.0.1",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/heshamelmasry77/module-2-workflow-#readme",
   "dependencies": {
     "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
